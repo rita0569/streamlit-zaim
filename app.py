@@ -3,7 +3,7 @@ import pandas as pd
 
 st.title("Zaim集計アプリ")
 
-uploaded_file = st.file_uploader("ファイルアップロード", type='csv')
+uploaded_file = st.file_uploader("ファイルアップロード", type=['csv','tsv'])
 
 # メイン画面
 
